@@ -11,8 +11,8 @@ import { ImageViewer } from "@/components/ImageViewer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dev Log",
-  description: "WhyAsh5114's dev log",
+  title: "Aayush",
+  description: "Portfolio Website",
 };
 
 const inter = Inter({
