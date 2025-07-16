@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col">
-        <TypographyH1>I&apos;m Aayush Mishra 👋</TypographyH1>
+        <TypographyH1>Namaste, I&apos;m Aayush Mishra.</TypographyH1>
         <span className="font-semibold mt-2">MIT Manipal, Udupi 📌</span>
         <TypographyP>
           Undergraduate at MIT Manipal - Pursuing B.Tech in Mechatronics.
