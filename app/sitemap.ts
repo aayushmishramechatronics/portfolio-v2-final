@@ -16,7 +16,7 @@ const getLastModified = (relativePath: string) => {
 
 const PROJECTS_DIR = path.join(process.cwd(), "app/projects/data");
 const POSTS_DIR = path.join(process.cwd(), "app/blog/data");
-const BASE_URL = "https://dev-log-whyash5114.vercel.app";
+const BASE_URL = "https://aayush-mishra-mit.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapArray: MetadataRoute.Sitemap = [
