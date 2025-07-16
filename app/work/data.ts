@@ -12,11 +12,11 @@ export type Work = {
 
 export const allWork: Work[] = [
   {
-    role: "Full Stack Intern",
-    organization: "Yardstick",
-    startDate: "January 2025",
-    endDate: "Current",
-    location: "Remote",
+    role: "SCADA Trainee",
+    organization: "ONGC",
+    startDate: "June 2025",
+    endDate: "July 2025",
+    location: "Panvel",
     tasks: [
       `Developed an AI-driven workflow automation platform using Next.js, optimizing for scalability, performance, and
         low latency to support a large user base`,
