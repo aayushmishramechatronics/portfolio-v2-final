@@ -28,11 +28,11 @@ export const allWork: Work[] = [
     techStack: ["NextJS", "React", "Prisma"],
   },
   {
-    role: "Data Engineering Intern",
-    organization: "Anand Chemiceutics",
-    startDate: "May 2023",
-    endDate: "July 2023",
-    location: "Mulund, MH",
+    role: "Frontend Development Intern",
+    organization: "Rydeu Logisitics",
+    startDate: "July 2024",
+    endDate: "October 2024",
+    location: "Remote",
     tasks: [
       `Automated data transformation with Python scripts, utilizing Pandas for file conversions and 
         optimizing numerical operations with NumPy, reducing processing time by 75%`,
@@ -44,10 +44,10 @@ export const allWork: Work[] = [
     techStack: ["Python", "Pandas", "NumPy"],
   },
   {
-    role: "Blockchain Intern",
-    organization: "Juppiter AI Labs",
-    startDate: "June 2022",
-    endDate: "August 2022",
+    role: "Web Content Development Intern",
+    organization: "Khan Academy",
+    startDate: "May 2024",
+    endDate: "July 2024",
     location: "Remote",
     tasks: [
       `Quickly adapted to PyTEAL (Python smart contract library) to meet tight project deadlines`,
