@@ -9,15 +9,15 @@ import { Separator } from "@/components/ui/separator";
 export default function Page() {
   return (
     <>
-      <TypographyH1>My tech timeline</TypographyH1>
+      <TypographyH1>My Projects Timeline</TypographyH1>
       <Separator className="mt-4 mb-12" />
       <Timeline
         data={[
           {
-            title: "Jun 2025",
+            title: "July 2025",
             content: (
               <div className="grid grid-cols-1 gap-2">
-                <span className="text-lg font-semibold">Warpspeed 2025</span>
+                <span className="text-lg font-semibold">Prepwise AI</span>
                 <p>
                   Another iteration on the AI powered fitness app with a touch
                   of agentic AI and RAG-enhanced knowledge.
@@ -27,7 +27,7 @@ export default function Page() {
             ),
           },
           {
-            title: "Apr 2025",
+            title: "June 2025",
             content: (
               <div className="grid grid-cols-1 gap-2">
                 <span className="text-lg font-semibold">HackByte 3.0</span>
@@ -41,7 +41,7 @@ export default function Page() {
             ),
           },
           {
-            title: "Feb 2025",
+            title: "May 2025",
             content: (
               <div className="grid grid-cols-1 gap-2">
                 <span className="text-lg font-semibold">HackHounds 3.O</span>
@@ -67,7 +67,7 @@ export default function Page() {
             ),
           },
           {
-            title: "Jan 2025",
+            title: "April 2025",
             content: (
               <div className="grid grid-cols-1 gap-2">
                 <p>
@@ -288,36 +288,6 @@ export default function Page() {
                   src="/timelineImages/sanjivani.jpg"
                   alt="Sanjivani International School Logo"
                 />
-              </div>
-            ),
-          },
-          {
-            title: "2020",
-            content: (
-              <div className="flex flex-col gap-2">
-                <p>
-                  Created a <b>Python</b> app to find out a cool in-game stat of
-                  DOTA 2 for a Reddit user.{" "}
-                  <Link
-                    className="underline"
-                    href="https://www.reddit.com/r/DotA2/comments/jcyot9/how_can_i_view_all_the_matches_that_i_got_a/"
-                  >
-                    Post link.
-                  </Link>
-                </p>
-                <MiniProjectShowcase projectName="DOTA-2-Rampage-Finder" />
-              </div>
-            ),
-          },
-          {
-            title: "2018",
-            content: (
-              <div className="flex flex-col gap-2">
-                <p>
-                  Started learning programming in 8th grade with <b>Java</b> and
-                  OOP fundamentals. Also designed some websites for fun.
-                </p>
-                <TechStack techStack={["Java", "HTML", "CSS"]} />
               </div>
             ),
           },
