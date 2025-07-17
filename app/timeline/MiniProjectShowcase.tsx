@@ -21,7 +21,7 @@ export function MiniProjectShowcase({ projectName }: { projectName: string }) {
       <TechStack techStack={project.metadata.techStack} />
       <Button size="sm" className="w-fit ml-auto" variant="secondary" asChild>
         <Link href={`/projects/${projectName}`}>
-          See project details
+          see project details
           <ChevronRight />
         </Link>
       </Button>
